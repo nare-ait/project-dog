@@ -1,0 +1,33 @@
+.div {
+    display: flex;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 10px;
+    flex-direction: row;
+}
+
+.button {
+    font-family: cursive;
+    font-weight: bold;
+    text-align: left;
+    background: linear-gradient(#fcff30, #0010c3);
+    width: 150px;
+    height: 70px;
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.dog-photo {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    border-radius: 8px;
+}
